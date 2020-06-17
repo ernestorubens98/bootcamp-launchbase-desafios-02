@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,300;1,700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root {
+    --color-orange: #ed9121
+}
+
+body {
+    background: #282a36;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+body header {
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+body header  div a {
+    font-size: 22px;
+    margin: 0 30px;
+    padding-bottom: 6px;
+    color: white;
+    text-decoration: none;
+}
+
+body header  div a:hover {
+    border-bottom: 2px solid var(--color-orange);
+}
+
+/* === SOBRE === */
+
